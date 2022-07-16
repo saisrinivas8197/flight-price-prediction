@@ -1,5 +1,5 @@
 # flight-price-prediction
-- Initially the training data is loaded into dataframe using pandas framework and then looked for the data types of the features, handled the missing values in the data.
+- Initially the training data is loaded into dataframe using pandas framework and then data is handled for any missing values that are present in the data.
 - Data from features like Date_of_Journey, Dep_Time, Arrival_Time is extracted using to_datetime function via pandas framework.
 - Categorical features like Airline, Source, Destination are converted to numeric using OneHotEncoder and feature called TotalStops is converted to numeric using Label Encoder.
 - Feature selection is carried out by plotting correlations between different features in form of heatmap using seaborn plot.
